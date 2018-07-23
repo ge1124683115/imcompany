@@ -9,6 +9,8 @@ import {
   MdListModule,
   MdGridListModule,
   MdTabsModule,
+  MdDialogModule,
+  MdAutocompleteModule
 } from '@angular/material';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 @NgModule({
@@ -23,7 +25,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     MdInputModule,
     MdListModule,
     MdGridListModule,
-    MdTabsModule
+    MdTabsModule,
+    MdDialogModule,
+    MdAutocompleteModule
   ],
   exports: [
     CommonModule,
@@ -36,7 +40,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     MdInputModule,
     MdListModule,
     MdGridListModule,
-    MdTabsModule
+    MdTabsModule,
+    MdDialogModule,
+    MdAutocompleteModule
   ],
   declarations: []
 })

@@ -8,6 +8,7 @@ import {MdSidenavModule} from '@angular/material';
 import {SharedModule} from './shared/shared.module';
 import {AppRoutingModule} from './app-routing.module';
 import {LoginModule} from './login/login.module';
+import {ProjectModule} from './project/project.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {LoginModule} from './login/login.module';
     MdSidenavModule,
     CoreModule,
     SharedModule,
-    LoginModule
+    LoginModule,
+    ProjectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

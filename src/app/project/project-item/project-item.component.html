@@ -1,0 +1,27 @@
+<md-card>
+  <md-card-header>
+    <md-card-title>
+      <span>
+        {{item.name}}
+      </span>
+    </md-card-title>
+  </md-card-header>
+  <img md-card-image [src]="item.coverImg">
+  <md-card-content>
+    <p>{{item.desc}}</p>
+  </md-card-content>
+  <md-card-actions>
+    <button md-button>
+      <md-icon>note</md-icon>
+      <span>编辑</span>
+    </button>
+    <button md-button (click)="onInviteClick()">
+      <md-icon>group_add</md-icon>
+      <span>邀请</span>
+    </button>
+    <button md-button>
+      <md-icon>delete</md-icon>
+      <span>删除</span>
+    </button>
+  </md-card-actions>
+</md-card>
